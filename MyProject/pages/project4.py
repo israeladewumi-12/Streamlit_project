@@ -10,7 +10,7 @@ st.title("🇳🇬 Poverty Rate Across Nigerian LGAs")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("./pages/New_povertyrate")  # Make sure this path is correct
+    return pd.read_csv("./MyProject/pages/New_povertyrate")  # Make sure this path is correct
 
 df = load_data()
 

@@ -9,7 +9,7 @@ st.title(" Melbourne Housing Market Analysis")
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("./pages/New_Melbourn_Less")
+    df = pd.read_csv("./MyProject/pages/New_Melbourn_Less")
     return df
 
 data = load_data()

@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your dataset
-df = pd.read_csv('./pages/New_povertyrate')  # Make sure it ends with .csv
+df = pd.read_csv('./MyProject/pages/New_povertyrate')  # Make sure it ends with .csv
 
 # Manually add 'Year' column (assuming 1985–1985+len(df))
 df['Year'] = list(range(1985, 1985 + len(df)))

@@ -11,7 +11,7 @@ with st.sidebar:
 # Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("./pages/New_Melbourn_Full")
+    df = pd.read_csv("./MyProject/pages/New_Melbourn_Full")
     df.drop(columns=["Unnamed: 0"], inplace=True, errors='ignore')
     return df
 

@@ -13,7 +13,7 @@ with st.sidebar:
 @st.cache_data
 
 def load_data():
-    df = pd.read_csv("./New_California_Less")
+    df = pd.read_csv("/workspaces/Streamlit_project/MyProject/New_California_Less")
     df = df.drop(columns=["Unnamed: 14", "Unnamed: 15"], errors='ignore')
     return df
 
