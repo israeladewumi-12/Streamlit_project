@@ -22,7 +22,7 @@ tab1, tab2 = st.tabs(["Dataset", "Visualisation"])
 
 # --- Tab 1: Show the Cleaned Data ---
 with tab1:
-    st.header("Cleaned Poverty Dataset")
+    st.header("Poverty Dataset")
     st.dataframe(df)
 
 # --- Tab 2: Scatter Plot Visualisation ---
